@@ -49,4 +49,10 @@ public class RocketFamily extends Entity{
                 Objects.equals(description, rocketFamily.description);
     }
 
+    @Override
+    public int hashCode() {
+
+        return Objects.hash(familyName, subCategory, description);
+    }
+
 }
