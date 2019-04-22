@@ -2,6 +2,8 @@ package rockets.model;
 
 public class RocketValidation {
 
+    private RocketValidation(){}
+
 
     public static void massToShouldBeNumbers(String massTo) {
 

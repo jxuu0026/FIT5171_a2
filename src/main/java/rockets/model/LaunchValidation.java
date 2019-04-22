@@ -5,6 +5,8 @@ import java.util.Set;
 
 public class LaunchValidation {
 
+    private LaunchValidation(){}
+
     public static void yearCanNotGreaterThanCurrentYear(int year){
 
     //launch date can not greater than the current year

@@ -4,6 +4,8 @@ import java.util.Calendar;
 
 public class LaunchServiceProviderValidation {
 
+    private LaunchServiceProviderValidation(){}
+
     public static void yearCanNotGreaterThanCurrentYear(int year) {
 
         //Year founded cannot be greater than the current year

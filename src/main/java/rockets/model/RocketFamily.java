@@ -51,7 +51,6 @@ public class RocketFamily extends Entity{
 
     @Override
     public int hashCode() {
-
         return Objects.hash(familyName, subCategory, description);
     }
 

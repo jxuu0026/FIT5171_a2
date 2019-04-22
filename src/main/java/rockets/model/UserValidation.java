@@ -5,6 +5,8 @@ import java.util.regex.Pattern;
 
 public class UserValidation {
 
+    private UserValidation(){}
+
     public static void checkCorrectEmailFormat(String emailString){
 
         Pattern mailREGX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);

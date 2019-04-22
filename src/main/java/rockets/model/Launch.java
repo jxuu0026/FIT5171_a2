@@ -34,14 +34,11 @@ public class Launch extends Entity {
     public Set<Payload> getPayload() {
 
         notNull(payload);
-       // LaunchValidation.listIsEmpty(payload);
 
         return payload;
     }
 
     public void setPayload(Set<Payload> payload) {
-
-        //LaunchValidation.listIsEmpty(payload);
 
         this.payload = payload;
     }
